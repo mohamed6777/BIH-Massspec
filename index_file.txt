@@ -1,0 +1,3 @@
+ACGTAGCT  tag1
+TGCATGCA  tag2
+GCTAGCTA  tag3
