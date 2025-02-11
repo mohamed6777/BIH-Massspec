@@ -1,0 +1,14 @@
+# environment.yaml
+
+name: scRNAseq_pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - snakemake
+  - fastqc
+  - seqkit
+  - umi_tools
+  - star
+  - samtools
+  - python=3.8
