@@ -1,0 +1,22 @@
+# config.yaml
+
+# Paths to input FASTQ files
+fastq_files:
+  - "path/to/sample1_lane1_R1.fastq.gz"
+  - "path/to/sample1_lane1_R2.fastq.gz"
+  - "path/to/sample1_lane2_R1.fastq.gz"
+  - "path/to/sample1_lane2_R2.fastq.gz"
+  # Add all 16 FASTQ file paths here
+
+# Path to index file for demultiplexing
+index_file: "path/to/index_file.tsv"
+
+# Output directory
+output_dir: "path/to/output_directory"
+
+# Reference genomes
+human_genome: "path/to/human_genome.fa"
+mouse_genome: "path/to/mouse_genome.fa"
+
+# Other parameters
+threads: 8
